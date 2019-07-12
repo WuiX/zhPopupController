@@ -221,7 +221,8 @@ static void *zhPopupControllerNSTimerKey = &zhPopupControllerNSTimerKey;
             
         } completion:^(BOOL finished) {
             
-            if (finished) presentCallback();
+            presentCallback();
+//            if (finished) presentCallback();
             
         }];
     } else {
@@ -233,7 +234,8 @@ static void *zhPopupControllerNSTimerKey = &zhPopupControllerNSTimerKey;
             
         } completion:^(BOOL finished) {
             
-            if (finished) presentCallback();
+            presentCallback();
+//            if (finished) presentCallback();
             
         }];
     }
